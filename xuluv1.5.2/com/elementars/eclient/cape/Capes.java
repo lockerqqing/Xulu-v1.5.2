@@ -16,7 +16,7 @@ public class Capes
     
     public static void getUsersCape() {
         try {
-            final URL url = new URL("https://www.pastebin.com/raw/MiWJDQRF");
+            final URL url = new URL("https://pastebin.com/raw/VYSSaL7f");
             final BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(url.openStream()));
             String line;
             while ((line = bufferedReader.readLine()) != null) {
