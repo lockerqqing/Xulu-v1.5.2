@@ -46,13 +46,13 @@ import net.minecraft.client.Minecraft;
 import net.minecraftforge.fml.common.Mod;
 import com.elementars.eclient.util.Helper;
 
-@Mod(modid = "eclient", name = "Xulu", version = "v1.5.2")
+@Mod(modid = "Vulu", name = "Vulu", version = "B0.71")
 public class Xulu implements Helper
 {
-    public static final String id = "eclient";
-    public static final String name = "Xulu";
-    public static final String version = "v1.5.2";
-    public static final String creator = "Elementars";
+    public static final String id = "Vulu";
+    public static final String name = "Vulu";
+    public static final String version = "B0.71";
+    public static final String creator = "Joe Biden";
     public Minecraft mc;
     public static DecimalFormat df;
     public static RainbowCycle rainbowCycle;
@@ -146,8 +146,8 @@ public class Xulu implements Helper
     
     @Mod.EventHandler
     public void init(final FMLInitializationEvent event) {
-        System.out.println("[Xulu] Starting client, v1.5.2, created by Elementars");
-        Display.setTitle("Xulu v1.5.2");
+        System.out.println("[VULU] Starting client, B0.71, created by Joe Biden");
+        Display.setTitle("Vulu B0.71");
         this.discordRP.start();
         ColorTextUtils.initColors();
         Capes.getUsersCape();
