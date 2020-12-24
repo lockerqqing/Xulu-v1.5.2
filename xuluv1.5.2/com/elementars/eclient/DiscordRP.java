@@ -23,7 +23,7 @@ public class DiscordRP
     public void start() {
         final Minecraft mc = Minecraft.getMinecraft();
         final DiscordRPC lib = DiscordRPC.INSTANCE;
-        final String applicationId = "671154973274275850";
+        final String applicationId = "791636303242199070";
         final String steamId = "";
         final DiscordEventHandlers handlers = new DiscordEventHandlers();
         handlers.ready = (user -> System.out.println("Ready!"));
@@ -32,7 +32,7 @@ public class DiscordRP
         presence.startTimestamp = System.currentTimeMillis() / 1000L;
         presence.details = "Playing epicly";
         presence.state = "lol";
-        presence.largeImageKey = "xulu2";
+        presence.largeImageKey = "nicepng_oof-png_9570479";
         lib.Discord_UpdatePresence(presence);
         final DiscordRPC discordRPC;
         final DiscordRichPresence discordRichPresence;
@@ -41,8 +41,8 @@ public class DiscordRP
             while (!Thread.currentThread().isInterrupted()) {
                 discordRPC.Discord_RunCallbacks();
                 try {
-                    discordRichPresence.largeImageKey = "xulurevamp3";
-                    discordRichPresence.largeImageText = "Xulu v1.5.2";
+                    discordRichPresence.largeImageKey = "nicepng_oof-png_9570479";
+                    discordRichPresence.largeImageText = "Vulu b0.71";
                     if (minecraft.isIntegratedServerRunning()) {
                         discordRichPresence.details = "Singleplayer";
                         discordRichPresence.state = "In Game";
